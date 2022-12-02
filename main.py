@@ -1,7 +1,6 @@
 def additionChecker():
-    a = input("5 + 5")
-    if a == "10":
-        return "True"
+    answer = input("5 + 5")
+    if answer == "10":
+        print ("True")
     else:
-        return "False"
-additionChecker()
+        print ("False") 
